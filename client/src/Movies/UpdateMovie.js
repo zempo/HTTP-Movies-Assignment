@@ -69,21 +69,21 @@ const UpdateMovie = (props) => {
           type='text'
           name='title'
           onChange={handleChange}
-          placeholder='title'
+          placeholder='Sound of Moo-sic'
           value={movie.title}
         ></input>
         <input
           type='text'
           name='director'
           onChange={handleChange}
-          placeholder='director'
+          placeholder='Dairy A. Ir'
           value={movie.director}
         ></input>
         <input
           type='text'
           name='metascore'
           onChange={handleChange}
-          placeholder='metascore'
+          placeholder='100'
           value={movie.metascore}
         ></input>
         <button>Submit</button>
